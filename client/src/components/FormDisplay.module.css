@@ -1,0 +1,14 @@
+.topRight {
+  position: fixed;
+  top: 11rem;
+  right: 3rem;
+  z-index: 10;
+}
+
+.pTag {
+  font-size: 20px;
+}
+
+.pTag span {
+  margin-left: 18px;
+}

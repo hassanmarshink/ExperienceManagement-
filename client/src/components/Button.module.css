@@ -1,0 +1,22 @@
+.buttonStyle {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 27rem;
+  margin-top: 2rem;
+  border: solid 1px var(--color-light--1);
+}
+
+.buttonStyle:hover {
+  background-color: var(--color-dark--1);
+  transform: translateY(-2px);
+  /* background-color: antiquewhite; */
+  border: solid 2px var(--color-light--1);
+}

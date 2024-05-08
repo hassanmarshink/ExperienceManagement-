@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-dark--1);
+  height: 7rem;
+  margin: 1rem 0.3rem;
+  border-radius: 5px;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+.ctaLink:link,
+.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+/* Adjust user position */
+.userWrapper {
+  position: relative;
+  top: -6rem; /* Adjust this value as needed */
+  right: -7rem;
+}
+
+/* Style for login link */
+.loginLink {
+  margin-right: 2rem; /* Adjust margin as needed */
+}
